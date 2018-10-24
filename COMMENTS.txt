@@ -1,0 +1,13 @@
+RETURN (CHARCODE >= ZERO && CHAR <= NINE); //SEMPRE OPTE PELA OPCAO POSITIVA
+
+
+
+function IsNumeric(event) {
+    var charCode = (event.which) ? event.which : event.keyCode
+    if ((charCode < ASCIIZero || charCode > ASCIINine)) {
+        return false;
+    } else {
+        return true;
+    }
+}
+// OU RETURN !(CHARCODE < ZERO || CHARCODE > NINE) OU RETURN (CHARCODE >= ZERO && CHAR <= NINE); //SEMPRE OPTE PELA OPCAO POSITIVA 

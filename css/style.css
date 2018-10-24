@@ -1,0 +1,68 @@
+body{
+background-image: url("../images/grey2.png");
+background-attachment: fixed;
+background-size: 100%;
+}
+
+.Calc{ 
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    padding: 60px 60px 60px 60px; /* -top -right -bottom -left    */
+    background-color: rgba(184, 181, 153, 0.790);
+    border-radius: 1.2rem;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+    font-size: 24px; 
+}
+
+#resultModal{
+    font-size: 20px; 
+}
+
+.workingDayInput{
+    width: 120px;
+    text-align: end;    
+}
+
+.CalculateButton{
+    margin-top: 30px;
+}
+
+.button{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 22px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.header {
+    /* background-image: url("../images/gold-wallpaper2.jpg"); /* Set backgroung image in header */ 
+    padding: 30px; /* Padding for the header */
+    top: 0;
+    right: 0;
+    opacity: 0.5;
+    width: 100%;
+    font-family: menu;
+    font-size: xx-large;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bolder;
+}
+
+.footer {
+    background-image: url("../images/grey1.jpg"); /* Set backgroung image in footer */
+    position: fixed; /* The footer is positioned relative to the browser window */
+    left: 0; /* Set footer from the left at 0px */
+    bottom: 0; /* Set footer from the bottom at 0px */
+    width: 100%; /* Set withd to 100% */
+    color: white; /* Set the text color */
+    text-align: right; /* set the text alignment to right */
+}
